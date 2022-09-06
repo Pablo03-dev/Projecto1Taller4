@@ -17,12 +17,20 @@ public class ModifyHpZone : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Panda"))
+        if (collision.CompareTag("Player"))
         {
-            GameManager.manager.QuitarVidas();
+            //GameManager.manager.QuitarVidas();
             //Audiomanager.PlaySound("HuidaPanda");
             //CameraShake.instance.StartShake(0.1f, 0.1f);
             //Destroy();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == ("Player"))
+        {
+            GameManager.manager.QuitarVidas();
         }
     }
 }
