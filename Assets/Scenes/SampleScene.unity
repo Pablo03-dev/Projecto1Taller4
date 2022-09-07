@@ -1128,7 +1128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BloquePrefab: {fileID: 2354939389733390124, guid: 901432f175918044cb7c39e719a8e2e1, type: 3}
-  timerToCreate: 0.2
+  timerToCreate: 0.15
 --- !u!1 &452241882
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,7 +1308,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7441232, y: -0.01000011, z: -10}
+  m_LocalPosition: {x: 6.983726, y: -0.01000011, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1697,7 +1697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981326272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7441232, y: -0.01000011, z: -10}
+  m_LocalPosition: {x: 6.983726, y: -0.01000011, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
