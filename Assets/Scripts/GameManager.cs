@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
 
     void UpdatedScore()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = "" + score;
     }
 
     public void AddScore(int puntajesumaar)
