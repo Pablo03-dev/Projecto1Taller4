@@ -17,7 +17,7 @@ public class ModifyHpZone : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Zorro"))
         {
             //GameManager.manager.QuitarVidas();
             //Audiomanager.PlaySound("HuidaPanda");

@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     //public float timer = 10;
     //private bool juegoPausado = false;
     public GameoverScreen GameOverScreen;
-    public PantallaInicio Start_Screen;
+    //public PantallaInicio Start_Screen;
     private void Awake()
     {
         manager = this;
@@ -33,15 +33,15 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void StartGame()
-    {
-        Start_Screen.Empezando();
-    }
+    //public void StartGame()
+    //{
+    //    Start_Screen.Empezando();
+    //}
 
-    public void IniciarJuego()
-    {
-        StartGame();
-    }
+    //public void IniciarJuego()
+    //{
+    //    StartGame();
+    //}
 
     public void QuitarVidas()
     {
