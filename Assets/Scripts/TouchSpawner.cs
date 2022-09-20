@@ -8,7 +8,7 @@ public class TouchSpawner : MonoBehaviour
     public float timerToCreate;
     bool puedoCrearBloques;
     float tiempoDesdelaUltimaCraecion = 0;
-
+    public int counter;
     Vector3 posicionUltimoBloque;
     Transform transformUltimoBloque;
     // Start is called before the first frame update
@@ -47,6 +47,12 @@ public class TouchSpawner : MonoBehaviour
 
     void SpawnBloque()
     {
+
+        if (counter == 7)
+        {
+            DetenerCreacion();
+        }
+
         Vector3 posBloque = transform.position;
         Vector3 posicionPlayer = transform.position;
         posicionPlayer.y += 1;
@@ -56,8 +62,27 @@ public class TouchSpawner : MonoBehaviour
         GameObject elBloque = Instantiate(BloquePrefab, posBloque, transform.rotation);
        
         elBloque.transform.parent = transform.parent;
+        counter++;
        
 
+    }
+
+    public void DescontarBloque() => counter--;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Techo")
+        {
+            DetenerCreacion();
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Techo")
+        {
+            Crearbloques();
+        }
     }
 
 }
