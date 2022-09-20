@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 198773744091990451}
   - component: {fileID: 386631605089599269}
   - component: {fileID: 7737519481149503159}
+  - component: {fileID: -6796545588397016785}
   m_Layer: 0
   m_Name: CuboApilador
   m_TagString: Player
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2354939389733390124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2.0097, z: 0}
-  m_LocalScale: {x: 0.27798638, y: 0.27798638, z: 0.27798638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -121,7 +122,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2354939389733390124}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -147,3 +148,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 220
+--- !u!114 &-6796545588397016785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2354939389733390124}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c896dcaef0864a74abd52d8733f6f21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tiempovida: 2

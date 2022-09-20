@@ -15,16 +15,16 @@ public class ModifyHpZone : MonoBehaviour
     {
         
     }
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Zorro"))
-        {
-            //GameManager.manager.QuitarVidas();
-            //Audiomanager.PlaySound("HuidaPanda");
-            //CameraShake.instance.StartShake(0.1f, 0.1f);
-            //Destroy();
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.CompareTag("Zorro"))
+    //    {
+    //        //GameManager.manager.QuitarVidas();
+    //        //Audiomanager.PlaySound("HuidaPanda");
+    //        //CameraShake.instance.StartShake(0.1f, 0.1f);
+    //        //Destroy();
+    //    }
+    //}
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

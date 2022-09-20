@@ -14,12 +14,13 @@ public class AutoMove : MonoBehaviour
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        //rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        rb.AddForce(transform.right * speed * Time.deltaTime);
+        //rb.AddForce(transform.right * speed * Time.deltaTime);
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 }

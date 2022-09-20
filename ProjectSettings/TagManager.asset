@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pared
   - Zorro
+  - Suelo
   layers:
   - Default
   - TransparentFX

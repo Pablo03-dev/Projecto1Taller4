@@ -10,7 +10,7 @@ public class TouchSpawner : MonoBehaviour
     float tiempoDesdelaUltimaCraecion = 0;
 
     Vector3 posicionUltimoBloque;
-
+    Transform transformUltimoBloque;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,13 +47,17 @@ public class TouchSpawner : MonoBehaviour
 
     void SpawnBloque()
     {
+        Vector3 posBloque = transform.position;
         Vector3 posicionPlayer = transform.position;
         posicionPlayer.y += 1;
         transform.position = posicionPlayer;
 
-        GameObject elBloque = Instantiate(BloquePrefab, posicionUltimoBloque, transform.rotation);
+
+        GameObject elBloque = Instantiate(BloquePrefab, posBloque, transform.rotation);
+       
         elBloque.transform.parent = transform.parent;
-        posicionUltimoBloque = transform.position;
+       
+
     }
 
 }
