@@ -75,6 +75,10 @@ public class TouchSpawner : MonoBehaviour
         {
             DetenerCreacion();
         }
+        if (collision.gameObject.tag == "Pared")
+        {
+            //CinemachineMovimientoCamara.Instance.MoverCamara(2, 2, 0.2f);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -84,5 +88,7 @@ public class TouchSpawner : MonoBehaviour
             Crearbloques();
         }
     }
+
+
 
 }
