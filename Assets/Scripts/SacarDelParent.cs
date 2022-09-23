@@ -17,5 +17,13 @@ public class SacarDelParent : MonoBehaviour
         touchSpawner = transform.parent.parent.GetComponentInChildren<TouchSpawner>();
     }
 
-    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Pared")
+        {
+            //Destroy(gameObject, .5f);
+        }
+    }
+
+
 }

@@ -8,6 +8,7 @@ TagManager:
   - Zorro
   - Suelo
   - Techo
+  - Tierra
   layers:
   - Default
   - TransparentFX

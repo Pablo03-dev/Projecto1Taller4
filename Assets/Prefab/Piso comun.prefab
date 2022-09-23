@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2237953007799395675}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52, y: 0, z: 0}
+  m_LocalPosition: {x: -0.546, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83,9 +83,10 @@ GameObject:
   - component: {fileID: 7629071556766929759}
   - component: {fileID: 7629071556766929756}
   - component: {fileID: -5249538833277297731}
+  - component: {fileID: 8341529518293240283}
   m_Layer: 0
   m_Name: Piso comun
-  m_TagString: Untagged
+  m_TagString: Tierra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,8 +99,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7629071556766929754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.7044, y: -2.5136, z: 0}
-  m_LocalScale: {x: 2.7682, y: 0.8075976, z: 1}
+  m_LocalPosition: {x: 17.7044, y: -2.5947, z: 0}
+  m_LocalScale: {x: 2.7682, y: 0.81320953, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4136848129915058031}
@@ -146,7 +147,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: -1930528670, guid: 27cbc9d1369c43d45becd34046295105, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -197,3 +198,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &8341529518293240283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7629071556766929754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c896dcaef0864a74abd52d8733f6f21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tiempovida: 10

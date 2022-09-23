@@ -221,6 +221,7 @@ GameObject:
   - component: {fileID: 5760659597762031672}
   - component: {fileID: 7106210574440254059}
   - component: {fileID: 2898817232753150803}
+  - component: {fileID: 4686502052298673889}
   m_Layer: 0
   m_Name: ElBloque
   m_TagString: Untagged
@@ -292,3 +293,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4686502052298673889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7634147433662159061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0564698b5042d0343948d62bb354e915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
