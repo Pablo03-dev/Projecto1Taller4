@@ -21,6 +21,7 @@ public class BotonSimple : MonoBehaviour
     {
         onDown.Invoke();
         CinemachineMovimientoCamara.Instance.MoverCamara(2, 2, 0.2f);
+        //Audiomanager.PlaySound("Destruir");
     }
 
     private void OnMouseUpAsButton()

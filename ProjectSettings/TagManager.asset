@@ -9,6 +9,8 @@ TagManager:
   - Suelo
   - Techo
   - Tierra
+  - Puntos
+  - Bloque
   layers:
   - Default
   - TransparentFX

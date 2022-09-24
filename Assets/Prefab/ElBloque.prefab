@@ -48,7 +48,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.4864918, y: 0.19802701}
+  m_Offset: {x: 0.4864918, y: 0.19427556}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -59,7 +59,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.03949094, y: 0.603946}
+  m_Size: {x: 0.03949094, y: 0.59644306}
   m_EdgeRadius: 0
 --- !u!50 &4368129954955464559
 Rigidbody2D:
@@ -223,9 +223,10 @@ GameObject:
   - component: {fileID: 2898817232753150803}
   - component: {fileID: 4686502052298673889}
   - component: {fileID: 3048335690825921929}
+  - component: {fileID: 4075906772199000491}
   m_Layer: 0
   m_Name: ElBloque
-  m_TagString: Untagged
+  m_TagString: Bloque
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,3 +343,15 @@ MonoBehaviour:
   onUp:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4075906772199000491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7634147433662159061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1218f945392cc6f48ac940b2b80cfc01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

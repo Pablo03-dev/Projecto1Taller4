@@ -16,19 +16,20 @@ public class Pointsup : MonoBehaviour
         
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            GameManager.manager.AddScore(20);
+            Audiomanager.PlaySound("Puntos");
+        }
+    }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
     //{
     //    if (collision.gameObject.tag == "Player")
     //    {
     //        GameManager.manager.AddScore(20);
     //    }
     //}
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            GameManager.manager.AddScore(20);
-        }
-    }
 }

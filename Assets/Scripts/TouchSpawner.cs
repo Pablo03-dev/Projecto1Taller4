@@ -29,6 +29,7 @@ public class TouchSpawner : MonoBehaviour
             {
                 SpawnBloque();
                 tiempoDesdelaUltimaCraecion = 0;
+                Audiomanager.PlaySound("Creacion");
             }
         }   
     }

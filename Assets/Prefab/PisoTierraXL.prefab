@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: -5249538833277297731}
   - component: {fileID: 8341529518293240283}
   m_Layer: 0
-  m_Name: Piso comun
+  m_Name: PisoTierraXL
   m_TagString: Tierra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,8 +241,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7629071556766929754}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.9293, y: -2.534, z: 0}
-  m_LocalScale: {x: 2.0119278, y: 0.78163046, z: 1}
+  m_LocalPosition: {x: 16.9293, y: -2.5947, z: 0}
+  m_LocalScale: {x: 2.0119278, y: 1.626419, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4136848129915058031}
