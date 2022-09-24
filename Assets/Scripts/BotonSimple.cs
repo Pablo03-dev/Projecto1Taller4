@@ -20,6 +20,7 @@ public class BotonSimple : MonoBehaviour
     private void OnMouseDown()
     {
         onDown.Invoke();
+        CinemachineMovimientoCamara.Instance.MoverCamara(2, 2, 0.2f);
     }
 
     private void OnMouseUpAsButton()

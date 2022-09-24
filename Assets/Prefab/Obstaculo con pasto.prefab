@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4342541878607574320}
   - component: {fileID: 4342541878607574321}
   - component: {fileID: 4342541878607574322}
+  - component: {fileID: -722503627460068573}
+  - component: {fileID: -3684022989656501648}
   m_Layer: 0
   m_Name: Obstaculo con pasto
   m_TagString: Pared
@@ -124,3 +126,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d68b085e1111f5345a5965c9455cddd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-722503627460068573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342541878607574326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9b87c4a18ae0244aa1775f876100c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+--- !u!114 &-3684022989656501648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342541878607574326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c896dcaef0864a74abd52d8733f6f21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tiempovida: 10
