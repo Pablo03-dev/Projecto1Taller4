@@ -77,7 +77,7 @@ public class TouchSpawner : MonoBehaviour
         }
         if (collision.gameObject.tag == "Pared")
         {
-            //CinemachineMovimientoCamara.Instance.MoverCamara(2, 2, 0.2f);
+            CinemachineMovimientoCamara.Instance.MoverCamara(2, 2, 0.2f);
         }
     }
 

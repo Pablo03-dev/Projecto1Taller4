@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 7106210574440254059}
   - component: {fileID: 2898817232753150803}
   - component: {fileID: 4686502052298673889}
+  - component: {fileID: 3048335690825921929}
   m_Layer: 0
   m_Name: ElBloque
   m_TagString: Untagged
@@ -305,3 +306,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0564698b5042d0343948d62bb354e915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3048335690825921929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7634147433662159061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106f5e804fa10fc42ab984326171437b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7634147433662159061}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onUp:
+    m_PersistentCalls:
+      m_Calls: []
