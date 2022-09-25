@@ -36,7 +36,7 @@ public class GameoverScreen : MonoBehaviour
     public void ExittButton()
     {
         Application.Quit();
-        //SceneManager.LoadScene("MenuPrincipal");
+        SceneManager.LoadScene("MenuPrincipal");
         Time.timeScale = 1f;
     }
 
