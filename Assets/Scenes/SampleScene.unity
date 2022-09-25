@@ -797,6 +797,7 @@ GameObject:
   - component: {fileID: 144746872}
   - component: {fileID: 144746871}
   - component: {fileID: 144746870}
+  - component: {fileID: 144746873}
   m_Layer: 0
   m_Name: Aviso Spawner1 (2)
   m_TagString: Untagged
@@ -893,6 +894,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &144746873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144746868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &193300089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,6 +1892,7 @@ GameObject:
   - component: {fileID: 340768164}
   - component: {fileID: 340768163}
   - component: {fileID: 340768162}
+  - component: {fileID: 340768165}
   m_Layer: 0
   m_Name: Aviso Spawner1 (5)
   m_TagString: Untagged
@@ -1975,6 +1989,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &340768165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340768160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &361190134
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,6 +5045,7 @@ GameObject:
   - component: {fileID: 1101367531}
   - component: {fileID: 1101367530}
   - component: {fileID: 1101367529}
+  - component: {fileID: 1101367532}
   m_Layer: 0
   m_Name: Aviso Spawner1 (3)
   m_TagString: Untagged
@@ -5115,6 +5142,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &1101367532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101367527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1136064637
 GameObject:
   m_ObjectHideFlags: 0
@@ -5576,6 +5615,7 @@ GameObject:
   - component: {fileID: 1165825978}
   - component: {fileID: 1165825977}
   - component: {fileID: 1165825976}
+  - component: {fileID: 1165825979}
   m_Layer: 0
   m_Name: Aviso Spawner1 (6)
   m_TagString: Untagged
@@ -5672,6 +5712,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &1165825979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165825974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1183453366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5819,6 +5871,7 @@ GameObject:
   - component: {fileID: 1195267781}
   - component: {fileID: 1195267780}
   - component: {fileID: 1195267779}
+  - component: {fileID: 1195267782}
   m_Layer: 0
   m_Name: Aviso Spawner1 (4)
   m_TagString: Untagged
@@ -5915,6 +5968,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &1195267782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195267777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1215656101
 GameObject:
   m_ObjectHideFlags: 0
@@ -7505,6 +7570,7 @@ GameObject:
   - component: {fileID: 1442661228}
   - component: {fileID: 1442661227}
   - component: {fileID: 1442661226}
+  - component: {fileID: 1442661229}
   m_Layer: 0
   m_Name: Aviso Spawner1 (1)
   m_TagString: Untagged
@@ -7601,6 +7667,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &1442661229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442661224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1475154144
 GameObject:
   m_ObjectHideFlags: 0
@@ -7951,6 +8029,7 @@ GameObject:
   - component: {fileID: 1559732167}
   - component: {fileID: 1559732166}
   - component: {fileID: 1559732168}
+  - component: {fileID: 1559732169}
   m_Layer: 0
   m_Name: Aviso Spawner1
   m_TagString: Untagged
@@ -8047,6 +8126,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1559732169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559732164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1570133227
 GameObject:
   m_ObjectHideFlags: 0
@@ -8381,6 +8472,7 @@ GameObject:
   - component: {fileID: 1818882857}
   - component: {fileID: 1818882856}
   - component: {fileID: 1818882855}
+  - component: {fileID: 1818882858}
   m_Layer: 0
   m_Name: Aviso Spawner1 (7)
   m_TagString: Untagged
@@ -8477,6 +8569,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &1818882858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818882853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1820158306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7629071556766929758, guid: 535b96766822f404e86f091627be1325, type: 3}
@@ -9018,6 +9122,7 @@ GameObject:
   - component: {fileID: 2067084441}
   - component: {fileID: 2067084440}
   - component: {fileID: 2067084439}
+  - component: {fileID: 2067084442}
   m_Layer: 0
   m_Name: Aviso Spawner1 (8)
   m_TagString: Untagged
@@ -9114,6 +9219,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.76083946}
   m_EdgeRadius: 0
+--- !u!114 &2067084442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067084437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f66f63479e4ff44aa0141229f434cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2075807799
 GameObject:
   m_ObjectHideFlags: 0
