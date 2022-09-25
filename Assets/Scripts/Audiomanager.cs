@@ -7,8 +7,8 @@ public class Audiomanager : MonoBehaviour
     public static AudioClip PuntosSound;
     public static AudioClip CreacionSound;
     public static AudioClip DestruirSound;
-    //public static AudioClip HuidaSound;
-    //public static AudioClip ExplosionSound;
+    public static AudioClip AlertaSound;
+    public static AudioClip BotonesSound;
     //public static AudioClip MuroSound;
     //public static AudioClip PandaSound;
     //public static AudioClip BotonesSound;
@@ -22,8 +22,8 @@ public class Audiomanager : MonoBehaviour
         PuntosSound = Resources.Load<AudioClip>("Puntos");
         CreacionSound = Resources.Load<AudioClip>("Creacion");
         DestruirSound = Resources.Load<AudioClip>("Destruir");
-        //HuidaSound = Resources.Load<AudioClip>("HuidaPanda");
-        //ExplosionSound = Resources.Load<AudioClip>("Explosion");
+        AlertaSound = Resources.Load<AudioClip>("Alert");
+        BotonesSound = Resources.Load<AudioClip>("Botones");
         //MuroSound = Resources.Load<AudioClip>("ImpacMuro");
         //PandaSound = Resources.Load<AudioClip>("Panda");
         //BotonesSound = Resources.Load<AudioClip>("Botones");
@@ -54,13 +54,13 @@ public class Audiomanager : MonoBehaviour
                 audioScr.PlayOneShot(DestruirSound);
                 break;
 
-                //case "HuidaPanda":
-                //    audioScr.PlayOneShot(HuidaSound);
-                //    break;
+            case "Alert":
+                audioScr.PlayOneShot(AlertaSound);
+                break;
 
-                //case "Explosion":
-                //    audioScr.PlayOneShot(ExplosionSound);
-                //    break;
+            case "Botones":
+                audioScr.PlayOneShot(BotonesSound);
+                break;
 
                 //case "ImpacMuro":
                 //    audioScr.PlayOneShot(MuroSound);

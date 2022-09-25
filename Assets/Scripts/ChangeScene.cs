@@ -8,10 +8,12 @@ public class ChangeScene : MonoBehaviour
    public void changeScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+        Audiomanager.PlaySound("Botones");
     }
 
     public void ExitScene()
     {
         Application.Quit();
+        Audiomanager.PlaySound("Botones");
     }
 }

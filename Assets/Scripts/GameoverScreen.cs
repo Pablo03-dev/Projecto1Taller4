@@ -13,7 +13,7 @@ public class GameoverScreen : MonoBehaviour
     public void Setup(int score)
     {
         gameObject.SetActive(true);
-        pointsText.text = "Score: " + score.ToString();
+        pointsText.text = "" + score.ToString();
 
         JuegoPausado = true;
         Pausa();
@@ -29,6 +29,7 @@ public class GameoverScreen : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
         Time.timeScale = 1f;
+        Audiomanager.PlaySound("Botones");
         JuegoPausado = false;
     }
 

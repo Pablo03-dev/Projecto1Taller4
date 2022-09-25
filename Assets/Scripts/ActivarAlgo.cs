@@ -25,6 +25,7 @@ public class ActivarAlgo : MonoBehaviour
         if (collision.gameObject.CompareTag("Pared"))
         {
             Presionado?.Invoke();
+            Audiomanager.PlaySound("Alert");
         }
     }
 }

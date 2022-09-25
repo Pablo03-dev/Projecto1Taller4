@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: -722503627460068573}
   - component: {fileID: -3684022989656501648}
   m_Layer: 0
-  m_Name: Obstaculo con pasto
+  m_Name: PisoPastoMini
   m_TagString: Tierra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,8 +99,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4342541878607574326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.612, y: -2.524, z: 0}
-  m_LocalScale: {x: 0.47589436, y: 0.47589433, z: 0.47589433}
+  m_LocalPosition: {x: 11.604, y: -2.524, z: 0}
+  m_LocalScale: {x: 0.3509721, y: 0.47589433, z: 0.47589433}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3631458074227488534}
