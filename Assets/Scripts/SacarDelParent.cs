@@ -10,6 +10,7 @@ public class SacarDelParent : MonoBehaviour
     {
         touchSpawner.DescontarBloque();
         elTransform.parent = null;
+        transform.parent.GetComponentInChildren<TouchSpawner>().counter--;
     }
 
     private void Start()

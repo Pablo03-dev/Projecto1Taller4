@@ -1687,6 +1687,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BloquePrefab: {fileID: 2354939389733390124, guid: 901432f175918044cb7c39e719a8e2e1, type: 3}
   timerToCreate: 0.1
+  puedoCrearBloques: 0
+  tiempoDesdelaUltimaCraecion: 0
   counter: 0
 --- !u!114 &287001005
 MonoBehaviour:
@@ -3613,6 +3615,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BloquePrefab: {fileID: 7634147433662159061, guid: 73dfc98301712274987a04957a730741, type: 3}
   timerToCreate: 0.1
+  puedoCrearBloques: 0
+  tiempoDesdelaUltimaCraecion: 0
   counter: 0
 --- !u!61 &643790813
 BoxCollider2D:
@@ -3655,7 +3659,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -8698,7 +8702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928616276}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8884,7 +8888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 1002554133}
   timer: 0
-  tiempoMin: 5
+  tiempoMin: 4
   tiempoMax: 6
 --- !u!114 &2019366640
 MonoBehaviour:

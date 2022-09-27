@@ -16,10 +16,17 @@ public class Destruir : MonoBehaviour
         
     }
 
+    public void SacarDelCounter()
+    {
+        transform.parent.GetComponentInChildren<TouchSpawner>().counter--;
+
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Pared")
         {
+
             Destroy(gameObject, 2f);
         }
     }

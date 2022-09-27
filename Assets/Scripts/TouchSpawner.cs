@@ -6,8 +6,8 @@ public class TouchSpawner : MonoBehaviour
 {
     public GameObject BloquePrefab;
     public float timerToCreate;
-    bool puedoCrearBloques;
-    float tiempoDesdelaUltimaCraecion = 0;
+    public bool puedoCrearBloques;
+    public float tiempoDesdelaUltimaCraecion = 0;
 
     public int counter;
 
@@ -23,17 +23,25 @@ public class TouchSpawner : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (puedoCrearBloques)
+        if (transform.position.y <= 9.8f && counter < 13)
         {
-            tiempoDesdelaUltimaCraecion += Time.deltaTime;
-
-            if (tiempoDesdelaUltimaCraecion >= timerToCreate)
+            if (puedoCrearBloques)
             {
-                SpawnBloque();
-                tiempoDesdelaUltimaCraecion = 0;
-                Audiomanager.PlaySound("Creacion");
+                tiempoDesdelaUltimaCraecion += Time.deltaTime;
+
+                if (tiempoDesdelaUltimaCraecion >= timerToCreate)
+                {
+                    SpawnBloque();
+                    tiempoDesdelaUltimaCraecion = 0;
+                    Audiomanager.PlaySound("Creacion");
+                }
             }
-        }   
+        }
+        else
+        {
+            puedoCrearBloques = false;
+        }
+  
     }
 
     public void Crearbloques()
@@ -50,27 +58,23 @@ public class TouchSpawner : MonoBehaviour
 
     void SpawnBloque()
     {
-        if (transform.position.y >= 10)
-        {
-            return;
-        }
-
-        if (counter == 7)
-        {
-            DetenerCreacion();
-        }
-
-        Vector3 posBloque = transform.position;
-        Vector3 posicionPlayer = transform.position;
-        posicionPlayer.y += 1;
-        transform.position = posicionPlayer;
 
 
-        GameObject elBloque = Instantiate(BloquePrefab, posBloque, transform.rotation);
-       
-        elBloque.transform.parent = transform.parent;
+        
+        
+            Vector3 posBloque = transform.position;
+            Vector3 posicionPlayer = transform.position;
+            posicionPlayer.y += 1;
+            transform.position = posicionPlayer;
 
-        counter++;
+
+            GameObject elBloque = Instantiate(BloquePrefab, posBloque, transform.rotation);
+
+            elBloque.transform.parent = transform.parent;
+
+            counter++;
+        
+
        
 
     }
