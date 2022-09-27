@@ -289,7 +289,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -327,6 +327,9 @@ MonoBehaviour:
       m_Calls: []
   onDown:
     m_PersistentCalls:
+      m_Calls: []
+  onUp:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7634147433662159061}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -340,9 +343,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onUp:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &4075906772199000491
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8,7 +8,9 @@ public class TouchSpawner : MonoBehaviour
     public float timerToCreate;
     bool puedoCrearBloques;
     float tiempoDesdelaUltimaCraecion = 0;
+
     public int counter;
+
     Vector3 posicionUltimoBloque;
     Transform transformUltimoBloque;
     // Start is called before the first frame update
@@ -48,6 +50,10 @@ public class TouchSpawner : MonoBehaviour
 
     void SpawnBloque()
     {
+        if (transform.position.y >= 10)
+        {
+            return;
+        }
 
         if (counter == 7)
         {
@@ -63,6 +69,7 @@ public class TouchSpawner : MonoBehaviour
         GameObject elBloque = Instantiate(BloquePrefab, posBloque, transform.rotation);
        
         elBloque.transform.parent = transform.parent;
+
         counter++;
        
 
